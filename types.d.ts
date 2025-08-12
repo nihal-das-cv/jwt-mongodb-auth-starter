@@ -11,12 +11,12 @@ export interface IUser extends Document {
 }
 
 // Extended Express Request With Authenticated User
-interface AuthenticatedRequest extends Request {
+export interface AuthenticatedRequest extends Request {
   user?: IUser;
 }
 
 // Structure Of Decoded JWT Token
-interface DecodedToken {
+export interface DecodedToken {
   userId: string;
   iat?: number; // Issued At
   exp?: number; // Expiration

@@ -8,7 +8,8 @@
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "@types/mongoose": "^5.11.97"
+    "@types/mongoose": "^5.11.97",
+    "ngrok": "^5.0.0-beta.2"
   },
   "peerDependencies": {
     "typescript": "^5"
